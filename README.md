@@ -18,28 +18,31 @@ Arduino in-/out-puts:
      A2 Tempfühler Hz  
      A3 Tempfühler WW
   
-Display   
+Display:   
     (A5 nano) SLC  
     (A4 nano) SDA
 
-Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein )
+Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein ):
    D2 Verdichter / Kompresssor   
    D3 M16 Ladepumpe Speicher   
    D4 M11 Sole / Außen Wärmekörbe im Boden   
    D5 M18 WW / Heizung umschalter   
    D6 M13 Heizung
    
-Sicherheit   
+Sicherheit:   
    D9 Hochdruck Schalter   
    D8 Niederdruck Schalter
 
-Tastatur / Eingabe
-  D10 Tastatur T2 [Menue]
-  D11 Tastatur T3 [Enter]
-  D12 Tastatur T0 [up +]
-  D13 Tastatur T1 [down -]
-   
+Tastatur / Eingabe:
 
+     D10 Tastatur T2 [Menue]
+    
+     D11 Tastatur T3 [Enter]
+    
+     D12 Tastatur T0 [up +]
+    
+     D13 Tastatur T1 [down -]
+     
 
  Neue Funktionen:
  - Sondermenue Soletemperaturmessung min / max
@@ -52,3 +55,5 @@ Tastatur / Eingabe
  - Uhrzeit
  - EEPROM Speicher Einstellungen
  - Zusatz Menues
+
+Wichtig: Adafruit SSD1306  Version 1.1.2 verwenden, sonst keine 64 Linen Displayauflösung!
