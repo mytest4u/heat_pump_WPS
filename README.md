@@ -23,21 +23,14 @@ Display
     (A4 nano) SDA
 
 Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein )
-
-   D2 Verdichter / Kompresssor
-   
-   D3 M16 Ladepumpe Speicher
-   
-   D4 M11 Sole / Außen Wärmekörbe im Boden
-   
-   D5 M18 WW / Heizung umschalter
-   
+   D2 Verdichter / Kompresssor   
+   D3 M16 Ladepumpe Speicher   
+   D4 M11 Sole / Außen Wärmekörbe im Boden   
+   D5 M18 WW / Heizung umschalter   
    D6 M13 Heizung
    
-Sicherheit
-   
-   D9 Hochdruck Schalter
-   
+Sicherheit   
+   D9 Hochdruck Schalter   
    D8 Niederdruck Schalter
 
 Tastatur / Eingabe
