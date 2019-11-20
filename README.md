@@ -13,30 +13,41 @@ http://www.mytest4u.de/
 
 
  Arduino in-/out-puts:
-  A0 Aussen Temperatur
-  A1 Temperatur Sole
-  A2 Tempfühler Hz
-  A3 Tempfühler WW
-
-  Display
-  (A5 nano) SLC
-  (A4 nano) SDA
+    
+     A0 Aussen Temperatur  
+     A1 Temperatur Sole  
+     A2 Tempfühler Hz  
+     A3 Tempfühler WW
+  
+  Display   
+    (A5 nano) SLC  
+    (A4 nano) SDA
 
   Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein )
-  D2 Verdichter / Kompresssor
-  D3 M16 Ladepumpe Speicher
-  D4 M11 Sole / Außen Wärmekörbe im Boden
-  D5 M18 WW / Heizung umschalter
-  D6 M13 Heizung
-
+  
+   D2 Verdichter / Kompresssor
+   
+   D3 M16 Ladepumpe Speicher
+   
+   D4 M11 Sole / Außen Wärmekörbe im Boden
+   
+   D5 M18 WW / Heizung umschalter
+   
+   D6 M13 Heizung
+   
+   
   Sicherheit
-  D9 Hochdruck Schalter
-  D8 Niederdruck Schalter
+  
+   D9 Hochdruck Schalter
+   
+   D8 Niederdruck Schalter
+   
 
   D10 Tastatur T2 [Menue]
   D11 Tastatur T3 [Enter]
   D12 Tastatur T0 [up +]
   D13 Tastatur T1 [down -]
+  
  
  
  Neue Funktionen:
