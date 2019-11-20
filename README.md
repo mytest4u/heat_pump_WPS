@@ -12,7 +12,7 @@ https://www.youtube.com/MyTest4u
 http://www.mytest4u.de/
 
 
-Arduino in-/out-puts: 
+Arduino in-/out-puts:     
      A0 Aussen Temperatur  
      A1 Temperatur Sole  
      A2 Tempfühler Hz  
