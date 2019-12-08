@@ -11,7 +11,6 @@ https://www.youtube.com/MyTest4u
 
 http://www.mytest4u.de/
 
-
 Arduino in-/out-puts:     
      A0 Aussen Temperatur  
      A1 Temperatur Sole  
@@ -49,7 +48,7 @@ Tastatur / Eingabe:
  - EEPROM Speicher Sommer/Winter
  - Menüstrucktur angepasst
 
-In Version 1.118 Neue Funktionen:
+In Version 1.115 Neue Funktionen:
  - Sondermenue Soletemperaturmessung min / max
  - Pumpentest
  - Einstellen Heizen / Warmwasser / Sommer/Winter
