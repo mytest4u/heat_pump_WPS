@@ -22,6 +22,7 @@ Display:
     (A4 nano) SDA
 
 Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein ):
+
    D2 Verdichter / Kompresssor   
    D3 M16 Ladepumpe Speicher   
    D4 M11 Sole / Außen Wärmekörbe im Boden   
@@ -53,7 +54,7 @@ In Version 1.115 Neue Funktionen:
  - Pumpentest
  - Einstellen Heizen / Warmwasser / Sommer/Winter
  
- In Version 1.112 fehlen noch einige Funktionen:
+In Version 1.112 fehlen noch einige Funktionen:
  - Außentemperatur Anpassung
  - Temperatur Umrechnung
  - Uhrzeit
@@ -62,9 +63,4 @@ In Version 1.115 Neue Funktionen:
 
 Wichtig: Adafruit SSD1306  Version 1.1.2 verwenden, sonst keine 64 Linen Displayauflösung!
 
- Neu in Version 1.12:
- - Sicherheitsmenü
- - Frostschutz Solo
- - EEPROM Speicher Sommer/Winter
- - Menüstrucktur angepasst
 
