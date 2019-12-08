@@ -45,8 +45,8 @@ Tastatur / Eingabe:
 
  Neu in Version 1.12:
  - Sicherheitsmenü
- - Frostschutz Solo
- - EEPROM Speicher Sommer/Winter
+ - Frostschutz für Sole
+ - EEPROM Speicher für Sommer/Winter
  - Menüstrucktur angepasst
 
 In Version 1.115 Neue Funktionen:
