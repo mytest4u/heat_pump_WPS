@@ -42,9 +42,14 @@ Tastatur / Eingabe:
      D12 Tastatur T0 [up +]
     
      D13 Tastatur T1 [down -]
-     
 
- Neue Funktionen:
+ Neu in Version 1.12:
+ - Sicherheitsmenü
+ - Frostschutz Solo
+ - EEPROM Speicher Sommer/Winter
+ - Menüstrucktur angepasst
+
+In Version 1.118 Neue Funktionen:
  - Sondermenue Soletemperaturmessung min / max
  - Pumpentest
  - Einstellen Heizen / Warmwasser / Sommer/Winter
@@ -57,3 +62,10 @@ Tastatur / Eingabe:
  - Zusatz Menues
 
 Wichtig: Adafruit SSD1306  Version 1.1.2 verwenden, sonst keine 64 Linen Displayauflösung!
+
+ Neu in Version 1.12:
+ - Sicherheitsmenü
+ - Frostschutz Solo
+ - EEPROM Speicher Sommer/Winter
+ - Menüstrucktur angepasst
+
