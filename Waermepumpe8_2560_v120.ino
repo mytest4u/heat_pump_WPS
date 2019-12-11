@@ -1,26 +1,25 @@
 
 /*
   V1.120 neu Tsolewarn
- 
- 
+  
   Umgebung:
   Arduino 1.8.10
   Adafruit SSD1306  Version 1.1.2
   MEGA2560
 
-  Steuerung für Wearmepumpe (Buderus WP90)   20.11.2019
+  Steuerung für Wearmepumpe (Buderus WP90)   11.12.2019
   www.mytest4u.de
   YouTube-Kanal: mytest4u
 
-  xxxxxxxx Test Version 1.116 xxxxxxxx
+  xxxxxxxx Test Version xxxxxxxx
   keine Temp nur Spannung
-  Datei  Waermepump8_2560
 
   Testwerte
   WW     455 Ein   440 Aus
   Heizen 640 Ein   620 Aus
 
   Arduino in-/out-puts:
+  1kOhm gegen Vref
   A0 Aussen Temperatur
   A1 Temp Sole
   A2 Tempfühler Hz
@@ -38,7 +37,8 @@
   D6 M13 Heizung
 
   Sicherheit
-  D9 Hochdruck Schalter
+  (Öffner=10KOhm gegen Vcc / Schließer = 10kOhm genen GND)
+  D9 Hochdruck Schalter 
   D8 Niederdruck Schalter
 
   D10 Tastatur T2 [Menue]
@@ -120,7 +120,7 @@ unsigned long vdnww = 0; // Verdichter Start Anzahl WarmWasser
 unsigned long vdnhz = 0; // Verdichter Start Anzahl Heizen
 
 boolean stoerung = false; // Störungsspeicher merker
-boolean sommer = true;   // Sommer Heizung aus / Winter Heizung ein 1=Sommer / 0 Winter
+boolean sommer = true;    // Sommer Heizung aus / Winter Heizung ein 1=Sommer / 0 Winter
 
 void setup()   {
   Serial.begin(9600);
@@ -138,7 +138,7 @@ void setup()   {
   pinMode(5, OUTPUT); // M18 WW oder Heizungswahl
   pinMode(6, OUTPUT); // M13 Heizung
 
-  pinMode(8, INPUT);  // Hochdruck Öffner
+  pinMode(8, INPUT);  // Hochdruck Öffner 10kOhm gegen Vcc oder INPUT_PULLUP
   pinMode(9, INPUT);  // Niederdruck Öffner
 
   // ---- Tasten Belegung -----------------
