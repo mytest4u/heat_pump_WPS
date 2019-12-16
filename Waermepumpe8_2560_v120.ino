@@ -1,8 +1,7 @@
 
 /*
   V1.120 neu Tsolewarn
- 
- 
+  
   Umgebung:
   Arduino 1.8.10
   Adafruit SSD1306  Version 1.1.2
