@@ -43,6 +43,11 @@ Tastatur / Eingabe:
     
      D13 Tastatur T1 [down -]
 
+Neu in Version 1.13:
+  - M13 Abschaltung
+  - Pausezeiten verringert 
+  - WW mit Prüfung ob Heizung erforderlich ohne Abschaltsequenz
+
  Neu in Version 1.12:
  - Sicherheitsmenü
  - Frostschutz für Sole
