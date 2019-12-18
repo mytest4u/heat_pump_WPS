@@ -1,6 +1,6 @@
 
 /*
-  V1.13neu Tsolewarn
+  V1.13b neu Tsolewarn (b Zeitverhalten ein / aus verkürzt)
   Neu: 
   - M13 Abschaltung
   - Pausezeiten verringert 
@@ -327,7 +327,7 @@ void WWStart() {
 
   digitalWrite(5, LOW);   // Umschalten auf WW laden
 
-  //.....Wait 10 sec
+  //.....Wait 5 sec
   for (int i = 0; i <= 50; i++) {
     Tmessen();
     AnzeigeWW();
@@ -337,8 +337,8 @@ void WWStart() {
   // -- Startsequenz
   digitalWrite(4, LOW); // M11 Sole
 
-  //.....Wait 10 sec
-  for (int i = 0; i <= 100; i++) {
+  //.....Wait 1 sec
+  for (int i = 0; i <= 10; i++) {
     Tmessen();
     AnzeigeWW();
     delay(100);
@@ -347,8 +347,8 @@ void WWStart() {
 
   digitalWrite(3, LOW); //  M16 Lade
 
-  //.....Wait 10 sec
-  for (int i = 0; i <= 50; i++) {
+  //.....Wait 0,5 sec
+  for (int i = 0; i <= 5; i++) {
     Tmessen();
     AnzeigeWW();
     delay(100);
@@ -398,8 +398,8 @@ void WWStart() {
 
   //---------- WP Aussequenz
   digitalWrite(2, HIGH); //  Verdichter WP
-  //.....Wait 10 sec
-  for (int i = 0; i <= 100; i++) {
+  //.....Wait 5 sec
+  for (int i = 0; i <= 50; i++) {
     Tmessen();
     AnzeigeWW();
     delay(100);
@@ -409,8 +409,8 @@ void WWStart() {
   digitalWrite(3, HIGH); //  M16 Lade
   digitalWrite(5, HIGH);  // Umschalten auf WW laden
 
-  //.....Wait 10 sec
-  for (int i = 0; i <= 100; i++) {
+  //.....Wait 20 sec
+  for (int i = 0; i <= 200; i++) {
     Tmessen();
     AnzeigeWW();
     delay(100);
@@ -441,8 +441,8 @@ void HzStart() {
   // --Start
   digitalWrite(4, LOW); // M11 Sole
   // delay(30000);
-  //.....Wait 10 sec
-  for (int i = 0; i <= 100; i++) {
+  //.....Wait 1 sec
+  for (int i = 0; i <= 10; i++) {
     Tmessen();
     AnzeigeHz();
     delay(100);
@@ -450,8 +450,8 @@ void HzStart() {
 
   digitalWrite(3, LOW); //  M16 Lade
   // delay(5000);
-  //.....Wait 10 sec
-  for (int i = 0; i <= 50; i++) {
+  //.....Wait 1 sec
+  for (int i = 0; i <= 10; i++) {
     Tmessen();
     AnzeigeHz();
     delay(100);
@@ -493,7 +493,7 @@ HeizenEin(); // entspricht obigem Kommentar
   //---------- WP aus
   digitalWrite(2, HIGH); //  Verdichter WP
   //delay(5000);
-  //.....Wait 10 sec
+  //.....Wait 5 sec
   for (int i = 0; i <= 50; i++) {
     Tmessen();
     AnzeigeHz();
@@ -502,7 +502,7 @@ HeizenEin(); // entspricht obigem Kommentar
 
   digitalWrite(3, HIGH); //  M16 Lade
   //delay(20000);
-  //.....Wait 10 sec
+  //.....Wait 5 sec
   for (int i = 0; i <= 200; i++) {
     Tmessen();
     AnzeigeHz();
