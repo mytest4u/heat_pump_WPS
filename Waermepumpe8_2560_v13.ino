@@ -1603,7 +1603,7 @@ void  pumpen()  {
   digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);
 
-  delay(500); // 0,2 Sekunden
+  delay(500); // 0,5 Sekunden
   do {
     display.clearDisplay();
     display.setTextColor(WHITE);
@@ -1714,7 +1714,7 @@ void  pumpen()  {
 
     }
     display.display();
-    delay(200); // 0,4 Sekunden
+    delay(500); // 0,4 Sekunden
 
   }  while (digitalRead(12) == HIGH && mtime > millis() ); // Ausstieg
 
