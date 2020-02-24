@@ -32,6 +32,7 @@ Pumpen ( 1 HIGH  = Aus  / 0 LOW = Ein ):
 Sicherheit:   
    D9 Hochdruck Schalter   (Öffner)  
    D8 Niederdruck Schalter (Öffner)
+   
    D30 neg. Pulse Watchdog
    
 Tastatur / Eingabe:
