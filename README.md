@@ -72,5 +72,3 @@ In Version 1.112 fehlen noch einige Funktionen:
  - Zusatz Menues
 
 Wichtig: Adafruit SSD1306  Version 1.1.2 verwenden, sonst keine 64 Linen Displayauflösung!
-
-
