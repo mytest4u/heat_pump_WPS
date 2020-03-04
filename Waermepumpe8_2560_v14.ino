@@ -1178,7 +1178,7 @@ byte lb;
     if( EEPROM.read(address) != val ){EEPROM.write(address, val); }
   ***/
      watchdog();  // Sicherheit Watchdog reset !!!!!!!
-     delay(2000); // 0,4 Sekunden 
+     delay(200); // 0,4 Sekunden 
 // --- Ende EEPROM Schreiben
 
 }
